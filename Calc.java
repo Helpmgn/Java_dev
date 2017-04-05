@@ -7,7 +7,7 @@ public class Calc {
 		//System.out.println("Введите необходимую операцию: ");
 		//System.out.println("Сумма: 1, Разность:2, Умножение: 3, Деление: 4, Возведение в степень: 5 ");
 		//byte a = 0;
-		//System.in.read(a);
+		//??? System.in.read(a); как вводить в переменную с клавиатуры???
 		int summ = x+y;
 		int razn = x-y;
 		int umnozh = x*y;
@@ -16,13 +16,13 @@ public class Calc {
 		for (int i = 1; i < y; i++) {
 			stepen = stepen*x;
 		}
-		//if (a == 1); 
+		//??? if (a == 1); ???????????? просит поставить ";"
 		//{
 		//	int rez = x+y;
 		System.out.println("Сумма: " + summ);
 		System.out.println("Разность: " + razn);
 		System.out.println("Умножение: " + umnozh);
-		System.out.println("Деление: " + del);
+		System.out.println("Деление: " + del); ///////////////////////////////???почему остаток от деления к нулю???
 		System.out.println("Возведение в степень: " + stepen);
 		//}	
 	}
